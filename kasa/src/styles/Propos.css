@@ -1,0 +1,22 @@
+.categories{
+    width: 71%;
+    margin: auto;
+    margin-top: 37px;
+}
+
+.title_arrow {
+    background-color: #FF6060;
+    height: 60px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 18px;
+    align-items: center;
+    font-size: 24px;
+}
+
+h4 {
+    font-weight: 400;
+}

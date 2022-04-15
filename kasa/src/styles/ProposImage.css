@@ -1,0 +1,22 @@
+.propos {
+    width: 86.1%;
+    height: 223px;
+    margin: auto;
+    margin-top: 68px;
+    display: flex;
+    position: relative;
+}
+
+.figure-barre {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+.barre-img {
+    width: 100%;
+    margin: 0;
+    border-radius: 25px;
+    height: 223px;
+    object-fit: cover;
+}
