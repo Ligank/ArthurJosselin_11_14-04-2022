@@ -5,12 +5,14 @@
 body {
   font-family: 'DM Sans', sans-serif;
   font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 .gallery {
-  display: none;
+  margin-bottom: 300px;
 }
 
-.A_propos {
-  display: block;
+.footer--pin {
+  position: relative;
+  bottom: 0;
 }

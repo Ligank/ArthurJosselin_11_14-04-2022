@@ -27,15 +27,3 @@
     text-decoration: none;
     font-weight: 500;
 }
-
-#accueil:hover {
-    cursor: pointer;
-}
-
-#accueil:active + .gallery {
-    display: block;
-}
-
-#accueil:active + .a_propos {
-    display: none;
-}

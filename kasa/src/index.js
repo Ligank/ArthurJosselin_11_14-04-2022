@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './styles/index.css';
-import App from './components/App.js';
+import Home from './pages/Home.js';
+import Propos from './pages/Propos.js';
+import Error404 from './pages/Error404.js';
+import Location from './pages/Location.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+
+        <Route path="/propos" element={<Propos />}></Route>
+
+        <Route path="/location/:locationId" element={<Location />}></Route>
+
+        <Route path="/error" element={<Error404 />}></Route>
+
+      </Routes>
+    </Router>
+    
   </React.StrictMode>
 );
 

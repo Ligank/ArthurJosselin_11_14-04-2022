@@ -1,9 +1,12 @@
 import '../styles/Propos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import Banner from "../components/Banner"
+import Footer from '../components/Footer';
 
 function Propos() {
     return <div className="propos-box">
+        <Banner />
         <div className="categories">
             <div className="title_arrow">
                 <h4>Fiabilité</h4>
@@ -32,6 +35,7 @@ function Propos() {
             </div>
 
         </div>
+        <Footer />
         
     </div>
 }
