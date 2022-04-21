@@ -19,7 +19,7 @@ root.render(
 
         <Route path="/location/:locationId" element={<Location />}></Route>
 
-        <Route path="/error" element={<Error404 />}></Route>
+        <Route path="*" element={<Error404 />}></Route>
 
       </Routes>
     </Router>

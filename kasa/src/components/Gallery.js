@@ -1,21 +1,17 @@
 import '../styles/Gallery.css'
 import locations from "./../data/locations.json"
-
+import Card from "../components/Card"
 
 function Gallery() {
     return <div className="gallery-box">
         {locations.map((location) => (
-        <a key={`${location.title}-${location.id}`} className='location-box' href={'/location/${location.id}'}>
-            <figure className='box_img_location'>
-                <img src={location.cover} alt = "cover_location" className='location_picture'></img>
-            </figure>
-			<div className ='text_box'>
-				<p className='title-location'>{location.title}</p>
-			</div>
-        </a>
+        <Card 
+            key={`${location.title}-${location.id}`}
+            title={location.title}
+            link={'/location/' + location.id}
+            cover={location.cover}>
+        </Card>
         ))}
-        
-        
     </div>
 }
 

@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-}
-
-.gallery {
-  margin-bottom: 300px;
-}
-
 .footer--pin {
   position: relative;
   bottom: 0;
