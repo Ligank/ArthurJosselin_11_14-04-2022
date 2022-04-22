@@ -1,0 +1,10 @@
+.tag_card {
+    color: white;
+    background-color: #FF6060;
+    border-radius: 12px;
+    min-width: 115px;
+    height: 25px;
+    text-align: center;
+    padding: 3px 10px 0 10px;
+    margin-right: 10px;
+}

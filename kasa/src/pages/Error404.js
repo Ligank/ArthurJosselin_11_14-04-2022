@@ -1,6 +1,6 @@
 import '../styles/Error404.css'
 import Banner from "../components/Banner"
-import Footer from '../components/Footer';
+import Footer from '../components/Footer'
 
 
 function Error404() {
