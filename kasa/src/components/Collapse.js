@@ -17,7 +17,7 @@ function Collapse({ title, text}) {
                 {isExpanded ? title : title}
                 <FontAwesomeIcon icon={faChevronDown} />
             </div>
-            <div className='open' {...getCollapseProps()}>
+            <div {...getCollapseProps()}>
                 <p className='text_propos'>{text}</p>
             </div>
         </div>
@@ -25,7 +25,6 @@ function Collapse({ title, text}) {
 }
 Collapse.propTypes = {
     title: PropTypes.string,
-    text: PropTypes.string
 }
 
 export default Collapse

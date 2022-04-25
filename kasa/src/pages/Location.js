@@ -5,18 +5,17 @@ import Footer from '../components/Footer';
 import Tags from '../components/Tags';
 import Rating from '../components/Rating';
 import Collapse from '../components/Collapse';
+import GalleryImg from '../components/GalleryImg';
 
 
 function Location() {
     let id = window.location.pathname.replace('/location/', '')
     const location = !id ? locations : locations.filter(locations => locations.id === id);
-    const rating = location[0].rating
+    const rating = location[0].rating;
     return <div className="location">
         <Banner />
         <div className='location_box'>
-            <figure className='figure_location'>
-                <img src={location[0].cover} alt={location[0].title} className='img_location'></img>
-            </figure>
+        <GalleryImg />
             <div className='profil_location'> 
                 <div className='informations_principales_location'>
                     <div className='title_name_tags'>
@@ -64,7 +63,7 @@ function Location() {
                          <Collapse 
                             key={`${'equipement'}`}
                             title='Equipement'
-                            text={location[0].equipments}>
+                            text={location[0].equipments.join("\n")}>
                         </Collapse>
                     </div>
                 </div>

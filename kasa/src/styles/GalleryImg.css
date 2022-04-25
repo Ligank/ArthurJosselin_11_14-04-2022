@@ -1,0 +1,36 @@
+.gallery_box {
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.arrow_box {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.arrow_gallery {
+    width: 46px;
+    height: 79px;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.figure_gallery {
+    width: 100%;
+    margin: 0;
+}
+
+.img_gallery {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    border-radius: 25px;
+    object-fit: cover;
+}

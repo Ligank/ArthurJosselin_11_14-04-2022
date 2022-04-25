@@ -26,11 +26,3 @@
 #accueil {
     text-decoration: underline;
 }
-
-#propos:focus {
-    text-decoration: underline;
-}
-
-#propos:focus + #accueil {
-    text-decoration: none;
-}

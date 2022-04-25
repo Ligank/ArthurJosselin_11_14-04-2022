@@ -1,5 +1,5 @@
 .collapse{
-    width: 71%;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -24,18 +24,16 @@
     font-weight: 500;
 }
 
-.open {
-    background-color: #F6F6F6;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-size: 22px;
-    font-weight: 400;
-    height: 100%;
-}
-
 .text_propos {
     margin-block-start: 0;
     margin-block-end: 0;
     padding: 27px 27px 19px 18px;
     color: #FF6060;
+    white-space: pre-line;
+    background-color: #F6F6F6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    
 }
