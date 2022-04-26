@@ -6,11 +6,13 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 let id = window.location.pathname.replace('/location/', '')
 const location = !id ? locations : locations.filter(locations => locations.id === id);
+console.log(id)
 let galleryImages = [];
-for (let i = 0; i < location[0].pictures.length; ++i) {
-    galleryImages.push(location[0].pictures[i]);
-  }
-
+if (id !== "/") {
+    for (let i = 0; i < location[0].pictures.length; ++i) {
+        galleryImages.push(location[0].pictures[i]);
+      }
+}
 function GalleryImg() {
 
     function PreviousImg() {

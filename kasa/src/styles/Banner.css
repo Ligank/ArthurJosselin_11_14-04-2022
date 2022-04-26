@@ -7,6 +7,7 @@
 
 .figure_logo {
     flex-grow: 3;
+    margin: 0;
 }
 
 .lien-pages-box {
@@ -23,6 +24,8 @@
     font-weight: 500;
 }
 
-#accueil {
-    text-decoration: underline;
-}
+@media (max-width: 660px) {
+    .nav_link {
+        font-size: 18px;
+    }
+  }
