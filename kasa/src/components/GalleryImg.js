@@ -6,9 +6,9 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 let id = window.location.pathname.replace('/location/', '')
 const location = !id ? locations : locations.filter(locations => locations.id === id);
-console.log(id)
 let galleryImages = [];
-if (id !== "/") {
+let reg = new RegExp('^[a-z0-9]{8}$');
+if (reg.test(id) === true) {
     for (let i = 0; i < location[0].pictures.length; ++i) {
         galleryImages.push(location[0].pictures[i]);
       }
@@ -39,12 +39,15 @@ function GalleryImg() {
 
     return (
         <div className='gallery_box'>
-            <div className='arrow_box'>
-                <FontAwesomeIcon icon={faAngleLeft} className='arrow_gallery' onClick={PreviousImg}/>
-                <FontAwesomeIcon icon={faAngleRight} className='arrow_gallery' onClick={NextImg}/>
-            </div>
+            {galleryImages.length > 1 &&
+                <div className='arrow_box'>
+                    <FontAwesomeIcon icon={faAngleLeft} className='arrow_gallery' onClick={PreviousImg}/>
+                    <FontAwesomeIcon icon={faAngleRight} className='arrow_gallery' onClick={NextImg}/>
+                </div>
+            }
+            
             <figure className='figure_gallery'>
-                <img src={galleryImages[2]} alt='location[0].pictures.name' className='img_gallery'></img>
+                <img src={galleryImages[0]} alt='location[0].pictures.name' className='img_gallery'></img>
             </figure>
         </div>
     )

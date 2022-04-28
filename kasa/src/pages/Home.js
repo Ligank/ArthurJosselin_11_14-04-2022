@@ -10,9 +10,9 @@ function Home() {
           <Banner />
 
           <div className="gallery">
-          <TitreAccueil />
+            <TitreAccueil />
 
-          <Gallery />
+            <Gallery />
           </div>
           <footer className='footer--pin'>
             <Footer />
