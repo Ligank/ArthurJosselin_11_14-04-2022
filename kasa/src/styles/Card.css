@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
+    flex-wrap: wrap;
 }
 
 .title-location {
@@ -76,3 +77,17 @@
         transform: scale(1);
     }
 }
+
+@media (max-width: 450px) {
+
+    .title-location {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+    .location-box {
+        width: 475px;
+        height: 475px;
+    }
+
+  }

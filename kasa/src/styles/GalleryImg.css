@@ -34,3 +34,14 @@
     border-radius: 25px;
     object-fit: cover;
 }
+
+@media (max-width: 566px) {
+
+    .gallery_box {
+        height: 30vh;
+    }
+    .img_gallery {
+        height: 30vh;
+    }
+    
+  }

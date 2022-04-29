@@ -4,7 +4,7 @@ import logo from '../assets/logo - white.svg'
 function Footer() {
     return <div className="footer">
         <figure className='figure-logo'><img src={logo} alt='logo' className='logo-img'></img></figure>
-        <h4>© 2020 Kasa. All rights reserved</h4>
+        <h4 className='h4_footer'>© 2020 Kasa. All rights reserved</h4>
     </div>
 }
 

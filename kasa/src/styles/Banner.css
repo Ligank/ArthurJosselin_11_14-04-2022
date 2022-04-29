@@ -25,7 +25,22 @@
 }
 
 @media (max-width: 660px) {
+
     .nav_link {
         font-size: 18px;
+    }
+
+    .lien-pages-box {
+        display: flex;
+        width: 50%;
+    }
+
+    .figure_logo {
+        width: 40%;
+    }
+
+    .logo_img {
+        width: 75%;
+        height: auto;
     }
   }

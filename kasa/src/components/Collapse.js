@@ -4,8 +4,18 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import PropTypes from 'prop-types'
 import {useState} from 'react'
+import React, { useRef, useEffect } from 'react';
 
 function Collapse({ title, text}) {
+
+    const [height, setHeight] = useState(0)
+    const ref = useRef(null)
+    
+    useEffect(() => {
+        setHeight(ref.current.clientHeight)
+      }, [])
+    
+    const newHeight = height + 10;
 
     function Open() {
         if (show === true) {
@@ -31,10 +41,10 @@ function Collapse({ title, text}) {
                 {open?<FontAwesomeIcon icon={faChevronUp} className='arrow' />:null}
                 {close?<FontAwesomeIcon icon={faChevronDown} className='arrow' />:null}
             </div>
-            {show?<div className='text_box_collapse close'>
-                <p className='text_propos'>{text}</p>
-            </div>:null
-            }
+            <div className='text_box_collapse' style={{maxHeight: show? `${newHeight}px` : '0px' }}>
+                <p className='text_propos' ref = { ref }>{text}</p>
+            </div>
+            
             
         </div>
     </div>

@@ -19,7 +19,15 @@
     width: 122px;
 }
 
-h4 {
+.h4_footer {
     color: white;
     font-size: 24px;
 }
+
+@media (max-width: 660px) {
+
+    .h4_footer {
+        font-size: 1rem;
+    }
+
+  }

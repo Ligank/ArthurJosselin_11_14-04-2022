@@ -7,7 +7,7 @@ function Banner() {
     const { pathname } = useLocation()
     return <div className="kasa-banner">
         <figure className='figure_logo'>
-            <img src={logo} alt='logo'></img>
+            <img src={logo} alt='logo' className='logo_img'></img>
             </figure>
         <nav className='lien-pages-box'>
             <Link to='/' className='nav_link' id='accueil' style={{ textDecoration: pathname === '/' ? 'underline' : 'none' }}>Accueil</Link>

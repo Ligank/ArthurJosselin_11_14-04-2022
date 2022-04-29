@@ -22,7 +22,7 @@
 .profil_location {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 10px;
 }
@@ -116,12 +116,30 @@
 
 .descriptions_equipements_location {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .description {
-    width: 50%;
+    min-width: 250px;
+    flex: 1;
 }
 
 .equipement {
-    width: 50%;
+    min-width: 250px;
+    flex: 1;
 }
+
+@media (max-width: 566px) {
+    .rating_name {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .rating {
+        margin-top: 0px;
+    }
+    
+  }

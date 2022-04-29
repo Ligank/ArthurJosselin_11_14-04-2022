@@ -9,3 +9,11 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+@media (max-width: 615px) {
+
+    .gallery-box {
+        background-color: white;
+    }
+
+  }
