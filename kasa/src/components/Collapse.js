@@ -8,15 +8,15 @@ import React, { useRef, useEffect } from 'react';
 
 function Collapse({ title, text}) {
 
+    //récuperation de la taille du texte 
     const [height, setHeight] = useState(0)
     const ref = useRef(null)
-    
     useEffect(() => {
         setHeight(ref.current.clientHeight)
       }, [])
-    
     const newHeight = height + 10;
 
+    //Etat booléen de la collapse
     function Open() {
         if (show === true) {
             setShow(false)
@@ -28,13 +28,12 @@ function Collapse({ title, text}) {
             setClose(false)
         }   
     }
-
     const [show, setShow]=useState(false)
     const [open, setOpen]=useState(false)
     const [close, setClose]=useState(true)
 
+    
     return <div className="propos-box">
-
         <div className="collapse">
             <div className="title_arrow" onClick={Open}>
                 {title}
@@ -44,8 +43,6 @@ function Collapse({ title, text}) {
             <div className='text_box_collapse' style={{maxHeight: show? `${newHeight}px` : '0px' }}>
                 <p className='text_propos' ref = { ref }>{text}</p>
             </div>
-            
-            
         </div>
     </div>
 }

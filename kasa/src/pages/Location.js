@@ -12,6 +12,12 @@ function Location() {
     let id = window.location.pathname.replace('/location/', '')
     const location = !id ? locations : locations.filter(locations => locations.id === id);
     const rating = location[0].rating;
+    window.onload = function() {
+        if(!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+        }
+    }
     return <div className="location">
         <Banner />
         <div className='location_box'>

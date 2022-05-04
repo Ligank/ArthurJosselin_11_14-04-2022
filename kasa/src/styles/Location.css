@@ -22,7 +22,7 @@
 .profil_location {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
     margin: auto;
     margin-top: 10px;
 }
@@ -99,6 +99,7 @@
 
 .tags {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .rating {
