@@ -8,6 +8,19 @@ import React, { useRef, useEffect } from 'react';
 
 function Collapse({ title, text}) {
 
+    //Etat booléen de la collapse
+    function Open() {
+        if (open === true) {
+            setOpen(false)
+            setClose(true)
+        } else {
+            setOpen(true)
+            setClose(false)
+        }   
+    }
+    const [open, setOpen]=useState(false)
+    const [close, setClose]=useState(true)
+
     //récuperation de la taille du texte 
     const [height, setHeight] = useState(0)
     const ref = useRef(null)
@@ -15,22 +28,6 @@ function Collapse({ title, text}) {
         setHeight(ref.current.clientHeight)
       }, [])
     const newHeight = height + 10;
-
-    //Etat booléen de la collapse
-    function Open() {
-        if (show === true) {
-            setShow(false)
-            setOpen(false)
-            setClose(true)
-        } else {
-            setShow(true)
-            setOpen(true)
-            setClose(false)
-        }   
-    }
-    const [show, setShow]=useState(false)
-    const [open, setOpen]=useState(false)
-    const [close, setClose]=useState(true)
 
     
     return <div className="propos-box">
@@ -40,7 +37,7 @@ function Collapse({ title, text}) {
                 {open?<FontAwesomeIcon icon={faChevronUp} className='arrow' />:null}
                 {close?<FontAwesomeIcon icon={faChevronDown} className='arrow' />:null}
             </div>
-            <div className='text_box_collapse' style={{maxHeight: show? `${newHeight}px` : '0px' }}>
+            <div className='text_box_collapse' style={{maxHeight: open? `${newHeight}px` : '0px' }}>
                 <p className='text_propos' ref = { ref }>{text}</p>
             </div>
         </div>
