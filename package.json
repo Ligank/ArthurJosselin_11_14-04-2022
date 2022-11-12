@@ -1,8 +1,8 @@
 {
-  "homepage": "https://ligank.github.io/ArthurJosselin_11_14-04-2022",
+  "homepage": "https://github.com/Ligank/ArthurJosselin_11_14-04-2022",
   "name": "kasa",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
