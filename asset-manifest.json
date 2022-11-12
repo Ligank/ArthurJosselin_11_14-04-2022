@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ArthurJosselin_11_14-04-2022/public/index.html/static/css/main.fdbce99b.css",
-    "main.js": "/ArthurJosselin_11_14-04-2022/public/index.html/static/js/main.a53729d1.js",
-    "static/js/787.0ce615c0.chunk.js": "/ArthurJosselin_11_14-04-2022/public/index.html/static/js/787.0ce615c0.chunk.js",
-    "static/media/barre2.png": "/ArthurJosselin_11_14-04-2022/public/index.html/static/media/barre2.d36c7efeac1e92e8e1e7.png",
-    "static/media/barre.png": "/ArthurJosselin_11_14-04-2022/public/index.html/static/media/barre.77a85b41bf329385c3d7.png",
-    "static/media/logo.svg": "/ArthurJosselin_11_14-04-2022/public/index.html/static/media/logo.ac38b36ec692f2f5731bc84c1ac2030e.svg",
-    "static/media/logo - white.svg": "/ArthurJosselin_11_14-04-2022/public/index.html/static/media/logo - white.2553fb29683f2c12e44904bd8503bf1b.svg",
-    "index.html": "/ArthurJosselin_11_14-04-2022/public/index.html/index.html",
-    "main.fdbce99b.css.map": "/ArthurJosselin_11_14-04-2022/public/index.html/static/css/main.fdbce99b.css.map",
-    "main.a53729d1.js.map": "/ArthurJosselin_11_14-04-2022/public/index.html/static/js/main.a53729d1.js.map",
-    "787.0ce615c0.chunk.js.map": "/ArthurJosselin_11_14-04-2022/public/index.html/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/ArthurJosselin_11_14-04-2022/public/static/css/main.fdbce99b.css",
+    "main.js": "/ArthurJosselin_11_14-04-2022/public/static/js/main.b0bd4269.js",
+    "static/js/787.0ce615c0.chunk.js": "/ArthurJosselin_11_14-04-2022/public/static/js/787.0ce615c0.chunk.js",
+    "static/media/barre2.png": "/ArthurJosselin_11_14-04-2022/public/static/media/barre2.d36c7efeac1e92e8e1e7.png",
+    "static/media/barre.png": "/ArthurJosselin_11_14-04-2022/public/static/media/barre.77a85b41bf329385c3d7.png",
+    "static/media/logo.svg": "/ArthurJosselin_11_14-04-2022/public/static/media/logo.ac38b36ec692f2f5731bc84c1ac2030e.svg",
+    "static/media/logo - white.svg": "/ArthurJosselin_11_14-04-2022/public/static/media/logo - white.2553fb29683f2c12e44904bd8503bf1b.svg",
+    "index.html": "/ArthurJosselin_11_14-04-2022/public/index.html",
+    "main.fdbce99b.css.map": "/ArthurJosselin_11_14-04-2022/public/static/css/main.fdbce99b.css.map",
+    "main.b0bd4269.js.map": "/ArthurJosselin_11_14-04-2022/public/static/js/main.b0bd4269.js.map",
+    "787.0ce615c0.chunk.js.map": "/ArthurJosselin_11_14-04-2022/public/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdbce99b.css",
-    "static/js/main.a53729d1.js"
+    "static/js/main.b0bd4269.js"
   ]
 }
