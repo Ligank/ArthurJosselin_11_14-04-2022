@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Ligank/ArthurJosselin_11_14-04-2022/static/css/main.fdbce99b.css",
-    "main.js": "/Ligank/ArthurJosselin_11_14-04-2022/static/js/main.08bd8332.js",
-    "static/js/787.0ce615c0.chunk.js": "/Ligank/ArthurJosselin_11_14-04-2022/static/js/787.0ce615c0.chunk.js",
-    "static/media/barre2.png": "/Ligank/ArthurJosselin_11_14-04-2022/static/media/barre2.d36c7efeac1e92e8e1e7.png",
-    "static/media/barre.png": "/Ligank/ArthurJosselin_11_14-04-2022/static/media/barre.77a85b41bf329385c3d7.png",
-    "static/media/logo.svg": "/Ligank/ArthurJosselin_11_14-04-2022/static/media/logo.ac38b36ec692f2f5731bc84c1ac2030e.svg",
-    "static/media/logo - white.svg": "/Ligank/ArthurJosselin_11_14-04-2022/static/media/logo - white.2553fb29683f2c12e44904bd8503bf1b.svg",
-    "index.html": "/Ligank/ArthurJosselin_11_14-04-2022/index.html",
-    "main.fdbce99b.css.map": "/Ligank/ArthurJosselin_11_14-04-2022/static/css/main.fdbce99b.css.map",
-    "main.08bd8332.js.map": "/Ligank/ArthurJosselin_11_14-04-2022/static/js/main.08bd8332.js.map",
-    "787.0ce615c0.chunk.js.map": "/Ligank/ArthurJosselin_11_14-04-2022/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/static/css/main.fdbce99b.css",
+    "main.js": "/static/js/main.5a2cca6c.js",
+    "static/js/787.0ce615c0.chunk.js": "/static/js/787.0ce615c0.chunk.js",
+    "static/media/barre2.png": "/static/media/barre2.d36c7efeac1e92e8e1e7.png",
+    "static/media/barre.png": "/static/media/barre.77a85b41bf329385c3d7.png",
+    "static/media/logo.svg": "/static/media/logo.ac38b36ec692f2f5731bc84c1ac2030e.svg",
+    "static/media/logo - white.svg": "/static/media/logo - white.2553fb29683f2c12e44904bd8503bf1b.svg",
+    "index.html": "/index.html",
+    "main.fdbce99b.css.map": "/static/css/main.fdbce99b.css.map",
+    "main.5a2cca6c.js.map": "/static/js/main.5a2cca6c.js.map",
+    "787.0ce615c0.chunk.js.map": "/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdbce99b.css",
-    "static/js/main.08bd8332.js"
+    "static/js/main.5a2cca6c.js"
   ]
 }
